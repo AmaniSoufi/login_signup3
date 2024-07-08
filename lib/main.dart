@@ -1,4 +1,3 @@
-import 'package:device_preview/device_preview.dart';
 import 'package:flutter/material.dart';
 import 'package:untitled6/login_screen.dart';
 import 'package:untitled6/start.dart';
@@ -6,9 +5,7 @@ import 'package:untitled6/signup_screen.dart';
 
 void main() {
   runApp(
-    DevicePreview(
-      builder: (context) => const MyApp(),
-    ),
+    const MyApp(),
   );
 }
 
